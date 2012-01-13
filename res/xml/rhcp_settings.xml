@@ -11,8 +11,8 @@
             android:fragment="com.android.settings.SystemUITweaks" />
 
     <PreferenceScreen
-            android:key="performance_settings"
-            android:title="@string/performance_settings">
+            android:key="rhcp_settings"
+            android:title="@string/rhcp_settings">
             <intent android:action="android.intent.action.MAIN"
                  android:targetPackage="com.rhcp.settings"
                  android:targetClass="com.rhcp.settings.Performance" />
