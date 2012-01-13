@@ -147,6 +147,13 @@
     <!-- SYSTEM -->
     <header android:title="@string/header_category_system" />
 
+    <!-- Rhcp Settings -->
+    <header
+        android:id="@+id/rhcp_settings"
+        android:icon="@drawable/ic_rhcp_settings"
+        android:title="@string/rhcp_settings_title"
+        android:fragment="com.android.settings.rhcp" />
+
     <!-- Dock -->
     <header
         android:id="@+id/dock_settings"
